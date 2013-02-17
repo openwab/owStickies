@@ -1,0 +1,20 @@
+.owStickies{
+    border:1px solid #cbed1d;
+}
+
+.owStickies-msg{
+    /*display: none;*/
+    background-color: #000000;
+    color:#ffffff;
+    float:left;
+    margin:auto;
+    z-index: 1000;
+}
+.owStickies-msg p{padding: 0 4px 0 4px;}
+.owStickies-overlay{
+    position:absolute;
+    background-color: #f5f5f5;
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
